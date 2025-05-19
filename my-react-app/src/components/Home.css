@@ -1,0 +1,47 @@
+.home-container {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right,#ccf5f8, #f3d9b4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.form-content {
+    background: rgba(10, 10, 10, 0.5); 
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+}
+.eclipse-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+      from 180deg,
+      #ff4e50,   /* red-pink */
+      #fc913a,   /* orange */
+      #f9d423,   /* yellow */
+      #eae374,   /* lime */
+      #e1f5c4,   /* light green */
+      #00c9ff,   /* blue */
+      #ff4e50    /* loop back to red */
+    );
+    filter: blur(1px);
+    box-shadow: 0 0 30px rgba(255, 80, 80, 0.4), 
+                0 0 60px rgba(0, 180, 255, 0.3);
+    position: relative;
+  }
+  
+  .eclipse-circle::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: black;
+    border-radius: 50%;
+  }
+  
