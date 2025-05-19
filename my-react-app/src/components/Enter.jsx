@@ -143,8 +143,6 @@ export default function Enter() {
             </button>
           </div>
         </div>
-
-        {/* Middle Column */}
         <div style={{ width: '33%', padding: '0 20px' }}>
           <div>
             {itemsRight.map((item, index) => (
