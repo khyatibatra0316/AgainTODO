@@ -63,15 +63,15 @@ export default function Enter() {
   };
 
   const addItemLeft = () => {
-    setItems([...items, { text: 'New Show', checked: false }]);
+    setItems([...items, { text: 'Another one?', checked: false }]);
   };
 
   const addItemRight = () => {
-    setItemsRight([...itemsRight, { text: 'New Show', checked: false }]);
+    setItemsRight([...itemsRight, { text: "Can't stop adding?", checked: false }]);
   };
 
   const addItemRight2 = () => {
-    setItemsRight2([...itemsRight2, { text: 'New Show', checked: false }]);
+    setItemsRight2([...itemsRight2, { text: 'Next One Already?', checked: false }]);
   };
 
   return (
