@@ -74,13 +74,13 @@ export default function Main() {
                 <div
                     key={task.id}
                     style={{
-                        backgroundImage: `url(${Image11})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        minHeight: '100vh',
-                        width: '100%',
-                        overflowX: 'hidden',
-                        paddingBottom: '10vh'
+                        // backgroundColor: '#fff1e6', // light background for visibility,
+                        // backgroundSize: 'cover',
+                        // backgroundPosition: 'center',
+                        // minHeight: '100vh',
+                        // width: '100%',
+                        // overflowX: 'hidden',
+                        // paddingBottom: '10vh'
                     }}
                 >
                     <input
